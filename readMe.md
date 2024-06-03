@@ -1,0 +1,1 @@
+GuardLink is a powerful Chrome extension designed to protect users from navigating to potentially harmful websites. It reviews the security status of links before you visit them, detecting security vulnerabilities and identifying compromised sites. With GuardLink, you can browse the web
