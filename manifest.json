@@ -4,11 +4,15 @@
   "version": "1.0",
   "description": "GuardLink reviews the security status of links before you visit them.",
   "permissions": [
-    "activeTab",
-    "webNavigation",
-    "history",
     "contextMenus",
-    "storage"
+    "storage",
+    "history",
+    "webNavigation",
+    "activeTab",
+    "alarms",
+    "scripting",
+    "notifications",
+    "tabs"
   ],
   "background": {
     "service_worker": "background.js"
@@ -25,5 +29,8 @@
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  }
+  },
+  "host_permissions": [
+    "https://www.virustotal.com/*"
+  ]
 }

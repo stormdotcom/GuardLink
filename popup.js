@@ -16,4 +16,22 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     });
+
+    chrome.storage.local.get('isLoading', function (result) {
+        const loadingElement = document.getElementById('loading');
+        if (result.isLoading) {
+            loadingElement.style.display = 'block';
+        } else {
+            loadingElement.style.display = 'none';
+        }
+    });
+
+    chrome.runtime.onMessage.addListener(function (message) {
+        const loadingElement = document.getElementById('loading');
+        if (message.isLoading) {
+            loadingElement.style.display = 'block';
+        } else {
+            loadingElement.style.display = 'none';
+        }
+    });
 });

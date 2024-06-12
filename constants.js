@@ -1,0 +1,1 @@
+export const VT_API = "https://www.virustotal.com/api/v3/urls"
