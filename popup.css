@@ -1,33 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    width: 300px;
-    background-color: #f4f4f4;
-  }
-  
-  #content {
-    padding: 20px;
-  }
-  
-  h1 {
-    color: #004a7c;
-  }
-  
-  #overview p {
-    margin: 10px 0;
-  }
-  
-  .vulnerability {
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #004a7c;
-    color: white;
-    font-size: 12px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #f4f4f4;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#content {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+h1 {
+  color: #004a7c;
+  text-align: center;
+}
+
+#overview p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.vulnerability {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #004a7c;
+  color: white;
+  font-size: 12px;
+}
