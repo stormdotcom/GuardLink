@@ -64,7 +64,7 @@ GuardLink is licensed under the MIT License. See `LICENSE` for details.
 
 ## Contact
 
-For questions, suggestions, or feedback, please open an issue on GitHub or contact us at [ajmaln73@gmail.com].
+For questions, suggestions, or feedback, please open an issue on GitHub or contact me at [ajmaln73@gmail.com].
 
 ---
 
